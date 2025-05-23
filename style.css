@@ -1,0 +1,23 @@
+/*
+Theme Name: Remote Store
+Theme URI: https://github.com/RemoteHelpCOZA/remotestore
+Author: Remote Help
+Author URI: https://remotehelp.co.za
+Description: A modern and responsive WooCommerce theme for electronic stores with full customization options.
+Version: 1.0.0
+Requires at least: 5.6
+Tested up to: 6.4
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: remotestore
+Tags: e-commerce, custom-colors, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, woocommerce
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+*/
+
+/* Import main stylesheets */
+@import url('assets/css/main.css');
+@import url('assets/css/responsive.css');
+@import url('assets/css/woocommerce.css');

@@ -1,0 +1,253 @@
+/**
+ * Remote Store Responsive Stylesheet
+ */
+
+/* Large desktop and laptops */
+@media (max-width: 1200px) {
+    :root {
+        --container-width: 1140px;
+    }
+
+    .hero-content h2 {
+        font-size: 2.2rem;
+    }
+
+    .feature-item {
+        flex: 1 1 220px;
+    }
+}
+
+/* Desktop and smaller laptops */
+@media (max-width: 992px) {
+    :root {
+        --container-width: 960px;
+    }
+
+    .hero-section {
+        flex-direction: column;
+    }
+
+    .hero-content, .hero-image {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .hero-content {
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .hero-image {
+        order: -1;
+        margin-bottom: 20px;
+    }
+
+    .hero-image img {
+        max-height: 300px;
+    }
+
+    .features-container {
+        gap: 20px;
+    }
+
+    .feature-item {
+        flex: 1 1 45%;
+    }
+
+    .featured-section {
+        flex-direction: column;
+    }
+
+    .featured-content, .featured-image {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .featured-image {
+        order: -1;
+        margin-bottom: 20px;
+    }
+
+    .main-header-inner {
+        flex-wrap: wrap;
+    }
+
+    .site-branding {
+        flex: 1 0 auto;
+    }
+
+    .header-search {
+        order: 3;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 15px;
+    }
+}
+
+/* Tablets and small desktops */
+@media (max-width: 768px) {
+    :root {
+        --container-width: 720px;
+    }
+
+    .main-navigation-wrapper {
+        position: relative;
+    }
+
+    .menu-toggle {
+        display: block;
+        background: transparent;
+        color: var(--primary-color);
+        border: 1px solid var(--medium-gray);
+        padding: 10px;
+        margin-left: 10px;
+    }
+
+    .menu-toggle-icon {
+        display: block;
+        width: 25px;
+        height: 2px;
+        background-color: var(--primary-color);
+        position: relative;
+    }
+
+    .menu-toggle-icon:before,
+    .menu-toggle-icon:after {
+        content: '';
+        width: 25px;
+        height: 2px;
+        background-color: var(--primary-color);
+        position: absolute;
+        left: 0;
+    }
+
+    .menu-toggle-icon:before {
+        top: -8px;
+    }
+
+    .menu-toggle-icon:after {
+        bottom: -8px;
+    }
+
+    .main-navigation {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #ffffff;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        z-index: 999;
+    }
+
+    .main-navigation.toggled {
+        display: block;
+    }
+
+    .main-navigation ul {
+        flex-direction: column;
+    }
+
+    .main-navigation .sub-menu {
+        position: static;
+        display: none;
+        box-shadow: none;
+        padding-left: 20px;
+    }
+
+    .main-navigation li.toggled > .sub-menu {
+        display: block;
+    }
+
+    .top-header-inner {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .footer-widget-area {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-menu ul {
+        justify-content: center;
+    }
+
+    .products-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Tablets and large phones */
+@media (max-width: 576px) {
+    :root {
+        --container-width: 540px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .hero-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .feature-item {
+        flex: 0 0 100%;
+    }
+
+    .categories-container {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+
+    .category-item img {
+        height: 150px;
+    }
+
+    .category-content h3 {
+        font-size: 1rem;
+    }
+
+    .products-container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-widget-area {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+    .header-actions {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    .site-branding img {
+        max-height: 40px;
+    }
+
+    .footer-bottom {
+        gap: 15px;
+    }
+
+    .footer-menu ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
