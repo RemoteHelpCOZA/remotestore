@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+	<title>Remote Store Demo</title>
+	<link>https://remotehelpstore.com</link>
+	<description>A demo site for Remote Store WordPress theme</description>
+	<pubDate>Fri, 23 May 2025 08:00:00 +0000</pubDate>
+	<language>en-US</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>https://remotehelpstore.com</wp:base_site_url>
+	<wp:base_blog_url>https://remotehelpstore.com</wp:base_blog_url>
+
+	<!-- SITE OPTIONS -->
+	<wp:wp_option>
+		<wp:name>blogname</wp:name>
+		<wp:value><![CDATA[Remote Store Demo]]></wp:value>
+	</wp:wp_option>
+	<wp:wp_option>
+		<wp:name>blogdescription</wp:name>
+		<wp:value><![CDATA[Electronics and Tech Store]]></wp:value>
+	</wp:wp_option>
+	<wp:wp_option>
+		<wp:name>show_on_front</wp:name>
+		<wp:value><![CDATA[page]]></wp:value>
+	</wp:wp_option>
+	<wp:wp_option>
+		<wp:name>page_on_front</wp:name>
+		<wp:value><![CDATA[2]]></wp:value>
+	</wp:wp_option>
+	<wp:wp_option>
+		<wp:name>page_for_posts</wp:name>
+		<wp:value><![CDATA[3]]></wp:value>
+	</wp:wp_option>
+
+	<!-- THEME MODS -->
+	<wp:wp_option>
+		<wp:name>theme_mods_remotestore</wp:name>
+		<wp:value><![CDATA[a:24:{s:18:"custom_css_post_id";i:-1;s:18:"nav_menu_locations";a:3:{s:7:"primary";i:2;s:9:"secondary";i:3;s:11:"footer-menu";i:4;}s:33:"remotestore_customer_service_phone";s:12:"1-800-234-678";s:24:"remotestore_copyright_text";s:57:"© 2025 Remote Store Demo. All Rights Reserved.";s:29:"remotestore_show_payment_icons";b:1;s:25:"remotestore_payment_icons";s:75:"https://same-assets.com/493246017/2221281576.svg";s:19:"remotestore_show_hero";b:1;s:21:"remotestore_hero_title";s:44:"The best home entertainment system is here";s:24:"remotestore_hero_subtitle";s:71:"Premium electronics with fast shipping and excellent customer service.";s:28:"remotestore_hero_button_text";s:8:"Shop now";s:27:"remotestore_hero_button_url";s:28:"/shop";s:20:"remotestore_hero_image";s:65:"https://ext.same-assets.com/493246017/3305511592.png";s:23:"remotestore_show_features";b:1;s:25:"remotestore_feature_1_title";s:13:"Free shipping";s:24:"remotestore_feature_1_text";s:28:"When you spend $80 or more";s:25:"remotestore_feature_2_title";s:22:"We are available 24/7";s:24:"remotestore_feature_2_text";s:30:"Need help? contact us anytime";s:25:"remotestore_feature_3_title";s:19:"Satisfied or return";s:24:"remotestore_feature_3_text";s:27:"Easy 30-day return policy";s:25:"remotestore_feature_4_title";s:22:"100% secure payments";s:24:"remotestore_feature_4_text";s:34:"Visa, Mastercard, Stripe, PayPal";s:32:"remotestore_show_product_categories";b:1;s:20:"remotestore_show_banner";b:1;s:20:"remotestore_show_deals";b:1;}]]></wp:value>
+	</wp:wp_option>
+
+	<!-- PAGES -->
+	<item>
+		<title>Home</title>
+		<link>https://remotehelpstore.com/</link>
+		<pubDate>Fri, 23 May 2025 08:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://remotehelpstore.com/?page_id=2</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Welcome to Remote Store - your one-stop shop for electronics and tech gadgets.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2</wp:post_id>
+		<wp:post_date>2025-05-23 08:00:00</wp:post_date>
+		<wp:post_date_gmt>2025-05-23 08:00:00</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>home</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[front-page.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Blog</title>
+		<link>https://remotehelpstore.com/blog/</link>
+		<pubDate>Fri, 23 May 2025 08:01:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://remotehelpstore.com/?page_id=3</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Latest news and updates from our store.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>3</wp:post_id>
+		<wp:post_date>2025-05-23 08:01:00</wp:post_date>
+		<wp:post_date_gmt>2025-05-23 08:01:00</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>blog</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+
+	<item>
+		<title>About Us</title>
+		<link>https://remotehelpstore.com/about-us/</link>
+		<pubDate>Fri, 23 May 2025 08:02:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://remotehelpstore.com/?page_id=4</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>We are a premier electronics retailer specializing in high-quality tech products. Our mission is to provide customers with the best tech products at competitive prices, backed by exceptional customer service.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Founded in 2020, our team of tech enthusiasts carefully curates our product selection to ensure we only offer items that meet our high standards for quality and performance.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Our customer-first approach means we're always here to help, whether you need advice on choosing the right product or assistance after your purchase.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>4</wp:post_id>
+		<wp:post_date>2025-05-23 08:02:00</wp:post_date>
+		<wp:post_date_gmt>2025-05-23 08:02:00</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>about-us</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+
+	<item>
+		<title>Contact</title>
+		<link>https://remotehelpstore.com/contact/</link>
+		<pubDate>Fri, 23 May 2025 08:03:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://remotehelpstore.com/?page_id=5</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>We'd love to hear from you! Reach out to us with any questions, feedback, or inquiries.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Email:</strong> support@remotehelpstore.com</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Phone:</strong> 1-800-234-5678</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Hours:</strong> Monday - Friday: 9am - 6pm EST</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Send us a message</h2>
+<!-- /wp:heading -->
+
+<!-- wp:shortcode -->
+[contact-form-7 id="contact-form" title="Contact Form"]
+<!-- /wp:shortcode -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>5</wp:post_id>
+		<wp:post_date>2025-05-23 08:03:00</wp:post_date>
+		<wp:post_date_gmt>2025-05-23 08:03:00</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>contact</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+
+	<!-- WOOCOMMERCE PAGES -->
+	<item>
+		<title>Shop</title>
+		<link>https://remotehelpstore.com/shop/</link>
+		<pubDate>Fri, 23 May 2025 08:04:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://remotehelpstore.com/?page_id=6</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>6</wp:post_id>
+		<wp:post_date>2025-05-23 08:04:00</wp:post_date>
+		<wp:post_date_gmt>2025-05-23 08:04:00</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>shop</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wc_page_for_shop</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Cart</title>
+		<link>https://remotehelpstore.com/cart/</link>
+		<pubDate>Fri, 23 May 2025 08:05:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://remotehelpstore.com/?page_id=7</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:shortcode -->[woocommerce_cart]<!-- /wp:shortcode -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>7</wp:post_id>
+		<wp:post_date>2025-05-23 08:05:00</wp:post_date>
+		<wp:post_date_gmt>2025-05-23 08:05:00</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>cart</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_wc_page_for_cart</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Checkout</title>
+		<link>https://remotehelpstore.com/checkout/</link>
+		<pubDate>Fri, 23 May 2025 08:06:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://remotehelpstore.com/?page_id=8</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:shortcode -->[woocommerce_checkout]<!-- /wp:shortcode -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>8</wp:post_id>
+		<wp:post_date>2025-05-23 08:06:00</wp:post_date>
+		<wp:post_date_gmt>2025-05-23 08:06:00</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>checkout</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_wc_page_for_checkout</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>My Account</title>
+		<link>https://remotehelpstore.com/my-account/</link>
+		<pubDate>Fri, 23 May 2025 08:07:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://remotehelpstore.com/?page_id=9</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:shortcode -->[woocommerce_my_account]<!-- /wp:shortcode -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9</wp:post_id>
+		<wp:post_date>2025-05-23 08:07:00</wp:post_date>
+		<wp:post_date_gmt>2025-05-23 08:07:00</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>my-account</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_wc_page_for_myaccount</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<!-- BLOG POSTS -->
+	<item>
+		<title>Welcome to our new online store!</title>
+		<link>https://remotehelpstore.com/welcome-to-our-new-online-store/</link>
+		<pubDate>Fri, 23 May 2025 09:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://remotehelpstore.com/?p=10</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>We're excited to announce the launch of our brand new online store! After months of hard work and preparation, we're thrilled to bring you the best selection of electronics and tech gadgets.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Our new website features:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul>
+<li>An intuitive, user-friendly interface</li>
+<li>Fast, secure checkout</li>
+<li>Detailed product descriptions and high-quality images</li>
+<li>Customer reviews and ratings</li>
+<li>Responsive design for seamless shopping on any device</li>
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>We've carefully curated our product selection to offer only the highest quality items at competitive prices. Whether you're looking for the latest smartphones, laptops, smart home devices, or accessories, we've got you covered.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Stay tuned for regular updates, special promotions, and new product arrivals!</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[We're excited to announce the launch of our brand new online store! After months of hard work and preparation, we're thrilled to bring you the best selection of electronics and tech gadgets.]]></excerpt:encoded>
+		<wp:post_id>10</wp:post_id>
+		<wp:post_date>2025-05-23 09:00:00</wp:post_date>
+		<wp:post_date_gmt>2025-05-23 09:00:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>welcome-to-our-new-online-store</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="news"><![CDATA[News]]></category>
+	</item>
+
+	<!-- NAVIGATION MENUS -->
+	<wp:wp_term>
+		<wp:term_id>2</wp:term_id>
+		<wp:term_taxonomy>nav_menu</wp:term_taxonomy>
+		<wp:term_slug>primary-menu</wp:term_slug>
+		<wp:term_name><![CDATA[Primary Menu]]></wp:term_name>
+	</wp:wp_term>
+
+	<wp:wp_term>
+		<wp:term_id>3</wp:term_id>
+		<wp:term_taxonomy>nav_menu</wp:term_taxonomy>
+		<wp:term_slug>secondary-menu</wp:term_slug>
+		<wp:term_name><![CDATA[Secondary Menu]]></wp:term_name>
+	</wp:wp_term>
+
+	<wp:wp_term>
+		<wp:term_id>4</wp:term_id>
+		<wp:term_taxonomy>nav_menu</wp:term_taxonomy>
+		<wp:term_slug>footer-menu</wp:term_slug>
+		<wp:term_name><![CDATA[Footer Menu]]></wp:term_name>
+	</wp:wp_term>
+
+	<!-- PRODUCT CATEGORIES -->
+	<wp:wp_term>
+		<wp:term_id>10</wp:term_id>
+		<wp:term_taxonomy>product_cat</wp:term_taxonomy>
+		<wp:term_slug>smartphones</wp:term_slug>
+		<wp:term_name><![CDATA[Smartphones]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key>category_featured</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key>category_display_order</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:termmeta>
+	</wp:wp_term>
+
+	<wp:wp_term>
+		<wp:term_id>11</wp:term_id>
+		<wp:term_taxonomy>product_cat</wp:term_taxonomy>
+		<wp:term_slug>laptops</wp:term_slug>
+		<wp:term_name><![CDATA[Laptops]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key>category_featured</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key>category_display_order</wp:meta_key>
+			<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:termmeta>
+	</wp:wp_term>
+
+	<wp:wp_term>
+		<wp:term_id>12</wp:term_id>
+		<wp:term_taxonomy>product_cat</wp:term_taxonomy>
+		<wp:term_slug>audio</wp:term_slug>
+		<wp:term_name><![CDATA[Audio & Video]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key>category_featured</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key>category_display_order</wp:meta_key>
+			<wp:meta_value><![CDATA[3]]></wp:meta_value>
+		</wp:termmeta>
+	</wp:wp_term>
+
+	<wp:wp_term>
+		<wp:term_id>13</wp:term_id>
+		<wp:term_taxonomy>product_cat</wp:term_taxonomy>
+		<wp:term_slug>smart-home</wp:term_slug>
+		<wp:term_name><![CDATA[Smart Home]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key>category_featured</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key>category_display_order</wp:meta_key>
+			<wp:meta_value><![CDATA[4]]></wp:meta_value>
+		</wp:termmeta>
+	</wp:wp_term>
+
+	<wp:wp_term>
+		<wp:term_id>14</wp:term_id>
+		<wp:term_taxonomy>product_cat</wp:term_taxonomy>
+		<wp:term_slug>accessories</wp:term_slug>
+		<wp:term_name><![CDATA[Accessories]]></wp:term_name>
+		<wp:termmeta>
+			<wp:meta_key>category_featured</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:termmeta>
+		<wp:termmeta>
+			<wp:meta_key>category_display_order</wp:meta_key>
+			<wp:meta_value><![CDATA[5]]></wp:meta_value>
+		</wp:termmeta>
+	</wp:wp_term>
+
+	<!-- BLOG CATEGORIES -->
+	<wp:wp_term>
+		<wp:term_id>20</wp:term_id>
+		<wp:term_taxonomy>category</wp:term_taxonomy>
+		<wp:term_slug>news</wp:term_slug>
+		<wp:term_name><![CDATA[News]]></wp:term_name>
+	</wp:wp_term>
+
+	<wp:wp_term>
+		<wp:term_id>21</wp:term_id>
+		<wp:term_taxonomy>category</wp:term_taxonomy>
+		<wp:term_slug>product-updates</wp:term_slug>
+		<wp:term_name><![CDATA[Product Updates]]></wp:term_name>
+	</wp:wp_term>
+
+	<wp:wp_term>
+		<wp:term_id>22</wp:term_id>
+		<wp:term_taxonomy>category</wp:term_taxonomy>
+		<wp:term_slug>tech-tips</wp:term_slug>
+		<wp:term_name><![CDATA[Tech Tips]]></wp:term_name>
+	</wp:wp_term>
+
+</channel>
+</rss>
